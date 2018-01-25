@@ -12,6 +12,8 @@
 		8A0A443C2006E82500612A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A443A2006E82500612A19 /* Main.storyboard */; };
 		8A0A443E2006E82500612A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A443D2006E82500612A19 /* Assets.xcassets */; };
 		8A0A44412006E82500612A19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A443F2006E82500612A19 /* LaunchScreen.storyboard */; };
+		8A0A55A12007430A00480311 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A55A02007430A00480311 /* WelcomeViewController.swift */; };
+		C6F2A45620088C17009BCD32 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2A45520088C17009BCD32 /* RegistrationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8A0A443D2006E82500612A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A0A44402006E82500612A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A0A44422006E82500612A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A0A55A02007430A00480311 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		C6F2A45520088C17009BCD32 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8A0A443D2006E82500612A19 /* Assets.xcassets */,
 				8A0A443F2006E82500612A19 /* LaunchScreen.storyboard */,
 				8A0A44422006E82500612A19 /* Info.plist */,
+				8A0A55A02007430A00480311 /* WelcomeViewController.swift */,
+				C6F2A45520088C17009BCD32 /* RegistrationViewController.swift */,
 			);
 			path = registrationViewcontroller;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0A55A12007430A00480311 /* WelcomeViewController.swift in Sources */,
 				8A0A44392006E82500612A19 /* ViewController.swift in Sources */,
+				C6F2A45620088C17009BCD32 /* RegistrationViewController.swift in Sources */,
 				8A0A44372006E82500612A19 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
